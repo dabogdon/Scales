@@ -14,6 +14,11 @@ void draw(){
     scale(x,y);
 }
 
+void mousePressed(){
+  phil=255;
+  redraw();
+}
+
 void scale(int x, int y){
   fill(phil,0,phil);
   phil+=(int)(Math.random()*17)-8;
